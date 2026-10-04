@@ -22,7 +22,6 @@ cqlsh:library> SELECT * FROM authors;
         3 |      J.K. |  Rowling
 
 (3 rows)
-
 cqlsh:library> UPDATE authors SET LastName = 'Smith' WHERE AuthorID = 1;
 
 cqlsh:library> SELECT * FROM authors WHERE AuthorID = 1;
